@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CEF47B371E5B0DA300143D0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF47B361E5B0DA300143D0A /* main.m */; };
+		CEF47B3F1E5B0DF100143D0A /* IVSotrudnik.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF47B3E1E5B0DF100143D0A /* IVSotrudnik.m */; };
+		CEF47B421E5B0EDA00143D0A /* IVBuhgalter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF47B411E5B0EDA00143D0A /* IVBuhgalter.m */; };
+		CEF47B491E5C2F0100143D0A /* IVMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF47B481E5C2F0100143D0A /* IVMobile.m */; };
+		CEF47B4C1E5C6A6A00143D0A /* IViPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF47B4B1E5C6A6A00143D0A /* IViPhone.m */; };
+		CEF47B4F1E5C6A8800143D0A /* IVAndroid.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF47B4E1E5C6A8800143D0A /* IVAndroid.m */; };
+		CEF47B521E5C835300143D0A /* IVSecretar.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF47B511E5C835300143D0A /* IVSecretar.m */; };
+		CEF47B561E5D813B00143D0A /* NSObject+category.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF47B551E5D813B00143D0A /* NSObject+category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,21 @@
 /* Begin PBXFileReference section */
 		CEF47B331E5B0DA300143D0A /* IVDomZad2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IVDomZad2; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF47B361E5B0DA300143D0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEF47B3D1E5B0DC800143D0A /* IVSotrudnik.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVSotrudnik.h; sourceTree = "<group>"; };
+		CEF47B3E1E5B0DF100143D0A /* IVSotrudnik.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVSotrudnik.m; sourceTree = "<group>"; };
+		CEF47B401E5B0E1C00143D0A /* IVBuhgalter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVBuhgalter.h; sourceTree = "<group>"; };
+		CEF47B411E5B0EDA00143D0A /* IVBuhgalter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVBuhgalter.m; sourceTree = "<group>"; };
+		CEF47B431E5B2C2600143D0A /* IVZvonok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVZvonok.h; sourceTree = "<group>"; };
+		CEF47B471E5C2EC800143D0A /* IVMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVMobile.h; sourceTree = "<group>"; };
+		CEF47B481E5C2F0100143D0A /* IVMobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVMobile.m; sourceTree = "<group>"; };
+		CEF47B4A1E5C6A5B00143D0A /* IViPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IViPhone.h; sourceTree = "<group>"; };
+		CEF47B4B1E5C6A6A00143D0A /* IViPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IViPhone.m; sourceTree = "<group>"; };
+		CEF47B4D1E5C6A7900143D0A /* IVAndroid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVAndroid.h; sourceTree = "<group>"; };
+		CEF47B4E1E5C6A8800143D0A /* IVAndroid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVAndroid.m; sourceTree = "<group>"; };
+		CEF47B501E5C834200143D0A /* IVSecretar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVSecretar.h; sourceTree = "<group>"; };
+		CEF47B511E5C835300143D0A /* IVSecretar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVSecretar.m; sourceTree = "<group>"; };
+		CEF47B541E5D813B00143D0A /* NSObject+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+category.h"; sourceTree = "<group>"; };
+		CEF47B551E5D813B00143D0A /* NSObject+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +80,47 @@
 			isa = PBXGroup;
 			children = (
 				CEF47B361E5B0DA300143D0A /* main.m */,
+				CEF47B541E5D813B00143D0A /* NSObject+category.h */,
+				CEF47B551E5D813B00143D0A /* NSObject+category.m */,
+				CEF47B461E5C2E8600143D0A /* Mobile */,
+				CEF47B451E5C2E6E00143D0A /* Protocol */,
+				CEF47B441E5C2E3300143D0A /* Sotrudnik */,
 			);
 			path = IVDomZad2;
+			sourceTree = "<group>";
+		};
+		CEF47B441E5C2E3300143D0A /* Sotrudnik */ = {
+			isa = PBXGroup;
+			children = (
+				CEF47B3D1E5B0DC800143D0A /* IVSotrudnik.h */,
+				CEF47B3E1E5B0DF100143D0A /* IVSotrudnik.m */,
+				CEF47B401E5B0E1C00143D0A /* IVBuhgalter.h */,
+				CEF47B411E5B0EDA00143D0A /* IVBuhgalter.m */,
+				CEF47B501E5C834200143D0A /* IVSecretar.h */,
+				CEF47B511E5C835300143D0A /* IVSecretar.m */,
+			);
+			name = Sotrudnik;
+			sourceTree = "<group>";
+		};
+		CEF47B451E5C2E6E00143D0A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CEF47B431E5B2C2600143D0A /* IVZvonok.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		CEF47B461E5C2E8600143D0A /* Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				CEF47B471E5C2EC800143D0A /* IVMobile.h */,
+				CEF47B481E5C2F0100143D0A /* IVMobile.m */,
+				CEF47B4A1E5C6A5B00143D0A /* IViPhone.h */,
+				CEF47B4B1E5C6A6A00143D0A /* IViPhone.m */,
+				CEF47B4D1E5C6A7900143D0A /* IVAndroid.h */,
+				CEF47B4E1E5C6A8800143D0A /* IVAndroid.m */,
+			);
+			name = Mobile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF47B3F1E5B0DF100143D0A /* IVSotrudnik.m in Sources */,
 				CEF47B371E5B0DA300143D0A /* main.m in Sources */,
+				CEF47B421E5B0EDA00143D0A /* IVBuhgalter.m in Sources */,
+				CEF47B4F1E5C6A8800143D0A /* IVAndroid.m in Sources */,
+				CEF47B4C1E5C6A6A00143D0A /* IViPhone.m in Sources */,
+				CEF47B521E5C835300143D0A /* IVSecretar.m in Sources */,
+				CEF47B491E5C2F0100143D0A /* IVMobile.m in Sources */,
+				CEF47B561E5D813B00143D0A /* NSObject+category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
